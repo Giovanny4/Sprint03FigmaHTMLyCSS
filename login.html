@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek | E-commerce</title>
+
+     <!-- Sección de Iconos -->
+     <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
+
+     <!-- Sección de fuentes -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+ 
+     <!-- Sección del CSS -->
+     <link rel="stylesheet" href="./css/reset.css">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="shortcut icon" href="./img/page-icon.png" type="image-icon">
+</head>
+<body>
+    <header>
+        <section class="menu">
+            <nav class="menu-nav container">
+                <figure class="menu-logo-box">
+                    <img class="menu-logo-img" src="./img/logo.svg" alt="logo-alurageek">
+                </figure>
+                <div class="menu-search-box">
+                    <input type="search" class="menu-search-input" placeholder="¿Qué deseas buscar?">
+                    <i class="fa-solid fa-magnifying-glass menu-search-icon"></i>
+                </div>
+                <div class="menu-cart-login-box">
+                    <a class="menu-button" href="./index.html">Volver<i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="login">
+            <div class="login-container container">
+                <h1 class="login-form-title">Iniciar Sesión</h1>
+                <form class="login-form" action="./admin.html">
+                    <label class="login-form-label" for="email"></label>
+                    <input class="login-form-input" type="email" id="email" name="email" autocomplete="off" placeholder="Escriba su correo electrónico">
+                    <label class="login-form-label" for="password"></label>
+                    <input class="login-form-input" type="password" id="password" name="password" autocomplete="off" placeholder="Escriba su contraseña">
+                    <button class="login-form-submit" type="submit" id="login">Ingresar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container container">
+            <img class="footer-logo-img" src="./img/logo.svg" alt="logo-alurageek">
+            <ul class="footer-list">
+                <li class="footer-item-list"><a href="#">¿Quiénes somos?</a></li>
+                <li class="footer-item-list"><a href="#">Política de privacidad</a></li>
+                <li class="footer-item-list"><a href="#">Programa de fidelidad</a></li>
+                <li class="footer-item-list"><a href="#">Nuestras tiendas</a></li>
+                <li class="footer-item-list"><a href="#">Franquicia</a></li>
+                <li class="footer-item-list"><a href="#">Anuncie aquí</a></li>
+            </ul>
+            <div class="footer-form-box">
+                <h3 class="footer-form-title">Hable con nosotros</h3>
+                <form class="footer-form" action="">
+                    <label class="footer-form-label" for="name">
+                        <p class="footer-form-field">Nombre:</p>
+                        <input class="footer-form-input" type="text" id="name" name="name" autocomplete="off" required>
+                    </label>
+                    <label class="footer-form-label" for="message">
+                        <p class="footer-form-field">Mensaje:</p>
+                        <textarea class="footer-form-input" type="text" id="message" name="message" rows="5" autocomplete="off" required></textarea>
+                    </label>
+                    <button class="footer-form-submit" type="submit" id="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-developed">
+			<a href="https://www.google.com/search?sa=X&q=D%C3%ADa+de+la+Independencia+de+Colombia+&oi=ddle&ct=213611345&hl=es-419&si=AC1wQDBgv4q3A2ojf086TvVgL6tTfKEZW2vrlR3V2uQ-r4wcbn81GB5Df40Wa2SM8rV1TYTL-Q-U0-BtgGoMEyaoIAyyJl7zFk7MqyobBPPWvzPHIUqSxgYeBFHhsEncV-6ETmhWZrjhKeI5QbMjFBfO8kD3UxD6R_VHbg-Dsd-nFmR6j-ZAxLmA83JVmOaemfJMQjpBuqeOjpCUTKtHlIW5jJ9G_EoRyegvIRbHw_uD4c_YsUa0ta5wWAeoX5Nx0OASEP5P2G-Mk0FEzpqeDUlKLfeqUKWTZA%3D%3D&ved=0ahUKEwijvpXwwYj5AhVntYQIHexaA9gQPQgC&biw=1280&bih=577&dpr=1.5" target="_blank">Desarrollado por Giovanny Vargas</a>
+		</div>
+    </footer>
+
+</body>
+</html>
